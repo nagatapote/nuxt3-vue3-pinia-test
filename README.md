@@ -4,6 +4,12 @@
 
 `$ npx nuxi typecheck`
 
+- 型推論
+
+Volar
+
+https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar
+
 # Nuxt 3 Minimal Starter
 
 We recommend to look at the [documentation](https://v3.nuxtjs.org).
