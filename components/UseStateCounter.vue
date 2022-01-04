@@ -8,10 +8,10 @@
 </template>
 
 <script setup lang="ts">
-import { useCounter } from "../composables/useCounter";
+import useCounter from "../composables/useCounter";
 
 type Counter = {
-  count: number;
+  count: Ref<number>;
   increment: () => number;
   decrement: () => number;
 };

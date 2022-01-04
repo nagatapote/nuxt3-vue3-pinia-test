@@ -1,7 +1,7 @@
 // const count = ref(0);
 
-export const useCounter = () => {
-  const count = useState("count", () => 0);
+const useCounter = () => {
+  const count = useState<number>("count", () => 0);
 
   const increment = () => count.value++;
 
@@ -13,3 +13,5 @@ export const useCounter = () => {
     decrement,
   };
 };
+
+export default useCounter;
