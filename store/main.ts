@@ -6,6 +6,7 @@ export const useMainStore = defineStore({
   state: () => ({
     counter: 0,
     name: "Counter",
+    msg: "default msg",
   }),
   getters: {
     doubleCount(): number {
