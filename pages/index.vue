@@ -1,8 +1,10 @@
 <template>
   <div>
     <div>
+      <h1>{{ hoge }}{{ foo }}</h1>
       <h1>Index</h1>
-      <Counter />
+      <PiniaCounter />
+      <UseStateCounter />
     </div>
     <div>
       <h1>ユーザー覧</h1>
@@ -16,6 +18,9 @@
 </template>
 
 <script setup lang="ts">
+const hoge = useHoge();
+const foo = useFoo();
+
 const title = "Hello Nuxt3!!";
 
 useMeta({
